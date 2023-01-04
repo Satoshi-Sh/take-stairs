@@ -1,0 +1,23 @@
+.avatar{
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+
+}
+.user {
+    color:white;
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+.nameDiv p{
+    text-transform: capitalize; 
+}
+
+.nameDiv{
+    height:40px;
+    line-height: 40px;
+    text-align:center
+}
