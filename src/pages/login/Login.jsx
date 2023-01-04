@@ -17,6 +17,7 @@ const Login = ()=>{
     if (token){
         navigate('/')
     }
+    
   })
   function handleSubmit(e) {
     e.preventDefault()
@@ -32,6 +33,7 @@ const Login = ()=>{
         }).then(res =>res.json())
         .then(data=>{
             if(data.hasOwnProperty('token')){
+            console.log(data)
             window.localStorage.setItem("token",data['token'])
             window.localStorage.setItem('username',data['user']['username'])
             window.localStorage.setItem('image',data['user']['image'])
@@ -40,7 +42,6 @@ const Login = ()=>{
             }
             else {
             let message = document.querySelector('.message')
-            console.log(message)
             message.style.display='block'
             username.value=''
             password.value=''

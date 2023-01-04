@@ -12,7 +12,6 @@ function Navigation() {
   const image = localStorage.getItem('image')
   const username = localStorage.getItem('username')
   function logout(){
-    console.log('working?')
     localStorage.removeItem('token')
     localStorage.removeItem('username')
     localStorage.removeItem('image')
