@@ -46,6 +46,7 @@ function Homepage (){
             res.json())
             .then(data=>{
             console.log(data)
+            navigate('/stats')
             }).catch(err=>{
                 throw err
             

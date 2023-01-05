@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import Navigation from './components/navigation/Navigation'
 import Homepage from './pages/homepage/Homepage'
 import Login from './pages/login/Login'
+import Stats from './pages/stats/Stats'
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
        <Routes>
        <Route exact path='/' element= {<Homepage />} />
        <Route path='/login' element = {<Login />} />
+       <Route path='/stats' element= {<Stats />} />
        </Routes>
        </Router>
     </div>

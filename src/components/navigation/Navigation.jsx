@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import {LinkContainer} from 'react-router-bootstrap'
 import { useNavigate } from 'react-router-dom';
 import './navigation.css'
 
@@ -20,7 +21,9 @@ function Navigation() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Take Stairs</Navbar.Brand>
+        <LinkContainer to='/'>
+        <Navbar.Brand>Take Stairs</Navbar.Brand>
+        </LinkContainer>
         {token?
         <div className='user'>
         <div className='nameDiv'>
@@ -32,7 +35,9 @@ function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
+            <LinkContainer to='/stats'>
+            <Nav.Link>Stats</Nav.Link>
+            </LinkContainer>
             {token?<Nav.Link onClick={logout}>Logout</Nav.Link>:null}
             
           </Nav>
