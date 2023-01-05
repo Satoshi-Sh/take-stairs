@@ -2,6 +2,8 @@
 
 This application keeps track of the stair exercise. User just need to put how many stairs they climb up and down. It shows the stats by bar and line plots. 
 
+Live page : https://satoshi-sh.github.io/take-stairs/
+
 You can check the code of the backend here.https://github.com/Satoshi-Sh/stairsAPI It's hosted on cyclic. Used express and mongoose.
 
 

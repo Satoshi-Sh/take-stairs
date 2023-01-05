@@ -33,7 +33,6 @@ const Login = ()=>{
         }).then(res =>res.json())
         .then(data=>{
             if(data.hasOwnProperty('token')){
-            console.log(data)
             window.localStorage.setItem("token",data['token'])
             window.localStorage.setItem('username',data['user']['username'])
             window.localStorage.setItem('image',data['user']['image'])
