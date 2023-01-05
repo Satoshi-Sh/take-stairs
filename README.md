@@ -1,3 +1,12 @@
+## Take Stairs
+
+This application keeps track of the stair exercise. User just need to put how many stairs they climb up and down. It shows the stats by bar and line plots. 
+
+You can check the code of the backend here.https://github.com/Satoshi-Sh/stairsAPI It's hosted on cyclic. Used express and mongoose.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

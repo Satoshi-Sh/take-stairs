@@ -6,6 +6,7 @@ import Navigation from './components/navigation/Navigation'
 import Homepage from './pages/homepage/Homepage'
 import Login from './pages/login/Login'
 import Stats from './pages/stats/Stats'
+import Monthly from './pages/Monthly/Monthly'
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
        <Route exact path='/' element= {<Homepage />} />
        <Route path='/login' element = {<Login />} />
        <Route path='/stats' element= {<Stats />} />
+       <Route path='/monthly' element = {<Monthly />} />
        </Routes>
        </Router>
     </div>

@@ -32,16 +32,26 @@ function Navigation() {
         <img src={image} className='avatar'></img>
         </div>
         :null}
+        {token? 
+        <>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <LinkContainer to='/stats'>
-            <Nav.Link>Stats</Nav.Link>
+          <LinkContainer to='/'>
+            <Nav.Link>Record Stairs</Nav.Link>
             </LinkContainer>
-            {token?<Nav.Link onClick={logout}>Logout</Nav.Link>:null}
+            <LinkContainer to='/stats'>
+            <Nav.Link>Total Stats</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to='/monthly'>
+            <Nav.Link>Monthly Stats</Nav.Link>
+            </LinkContainer>
+           <Nav.Link onClick={logout}>Logout</Nav.Link>
             
           </Nav>
         </Navbar.Collapse>
+        </>
+        :null}
       </Container>
     </Navbar>
   );

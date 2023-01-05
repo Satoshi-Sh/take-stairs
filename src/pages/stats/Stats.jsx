@@ -43,7 +43,9 @@ const Stats = ()=>{
 
     return (
     <>
+    <div className='header'>
     <h1>Total</h1>
+    </div>
     <div className="stats">
         
         <ul className='info'>

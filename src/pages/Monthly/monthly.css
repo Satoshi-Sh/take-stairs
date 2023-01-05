@@ -1,0 +1,19 @@
+.month {
+ display:flex;
+ justify-content: center;
+}
+
+.monthly{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+ul.info {
+    margin:0;
+    padding:0;
+}
+.plot {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
