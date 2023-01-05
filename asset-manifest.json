@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/take-stairs/static/css/main.a5cde991.css",
-    "main.js": "/take-stairs/static/js/main.c3cf251a.js",
+    "main.js": "/take-stairs/static/js/main.eb25f0a5.js",
     "static/js/787.75f710a2.chunk.js": "/take-stairs/static/js/787.75f710a2.chunk.js",
     "index.html": "/take-stairs/index.html",
     "main.a5cde991.css.map": "/take-stairs/static/css/main.a5cde991.css.map",
-    "main.c3cf251a.js.map": "/take-stairs/static/js/main.c3cf251a.js.map",
+    "main.eb25f0a5.js.map": "/take-stairs/static/js/main.eb25f0a5.js.map",
     "787.75f710a2.chunk.js.map": "/take-stairs/static/js/787.75f710a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5cde991.css",
-    "static/js/main.c3cf251a.js"
+    "static/js/main.eb25f0a5.js"
   ]
 }
