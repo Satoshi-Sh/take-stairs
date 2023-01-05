@@ -1,0 +1,31 @@
+.stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:100vh;
+}
+
+.info {
+    display:flex;
+    list-style-type:none;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.info li{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:250px;
+  height:80px;
+  font-size:25px;
+  border:solid 2px black;
+  border-collapse: separate;
+}
+
+.plot {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}

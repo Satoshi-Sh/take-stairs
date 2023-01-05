@@ -19,7 +19,7 @@ function Navigation() {
     navigate('/login')
   }
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top'>
       <Container>
         <LinkContainer to='/'>
         <Navbar.Brand>Take Stairs</Navbar.Brand>
